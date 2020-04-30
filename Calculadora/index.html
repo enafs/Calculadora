@@ -1,0 +1,47 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+   <title>Calculadora Erick</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="css\css.css">
+   <script src="js/javaScript.js">
+   </script>
+ </head>
+ <body>
+      <div class="calculator card">
+
+    <input type="text"  class="calculator-screen z-depth-1"  name="txt" id="txtstart" value="" disabled />
+
+    <div class="calculator-keys">
+
+      <button type="button" onclick="inputs('+')" class="operator btn btn-info" value="+">+</button>
+      <button type="button" onclick="inputs('-')" class="operator btn btn-info" value="-">-</button>
+      <button type="button" onclick="inputs('*')" class="operator btn btn-info" value="*">&times;</button>
+      <button type="button" onclick="inputs('/')" class="operator btn btn-info" value="/">&divide;</button>
+
+      <button type="button" value="7" onclick="inputs(7)" id="7" class="btn btn-light waves-effect">7</button>
+      <button type="button" value="8" onclick="inputs(8)" class="btn btn-light  waves-effect">8</button>
+      <button type="button" value="9" onclick="inputs(9)" class="btn btn-light waves-effect">9</button>
+
+
+      <button type="button" value="4" onclick="inputs(4)" class="btn btn-light waves-effect">4</button>
+      <button type="button" value="5" onclick="inputs(5)" class="btn btn-light waves-effect">5</button>
+      <button type="button" value="6" onclick="inputs(6)" class="btn btn-light waves-effect">6</button>
+
+
+      <button type="button" value="1" onclick="inputs(1)" class="btn btn-light waves-effect">1</button>
+      <button type="button" value="2" onclick="inputs(2)" class="btn btn-light waves-effect">2</button>
+      <button type="button" value="3" onclick="inputs(3)"  class="btn btn-light waves-effect">3</button>
+
+
+      <button type="button" value="0" onclick="inputs(0)" class="btn btn-light waves-effect">0</button>
+      <button type="button"   onclick="inputs('.')"class="decimal function btn btn-secondary" value=".">.</button>
+      <button type="button"  onclick="Limpar()" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+
+      <button type="button"  onclick="conta()"class="equal-sign operator btn btn-default" value="=">=</button>
+
+    </div>
+  </div>
+ </body>
+ </html>
+ 
